@@ -1,0 +1,22 @@
+<style>
+    .thumb {
+        background: transparent;
+        border-radius: 2px;
+        height: 150px;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px;
+        border: 1px solid #333;
+    }
+</style>
+
+<div class="row">
+    <!-- ko foreach: data.thumbs -->
+    <div class="col" data-bind="css: $parents[0].data.gridClass">
+        <div class="thumb" data-bind="attr: { href: url }">
+            <span data-bind="text: title"></span>
+            <span></span>
+        </div>
+    </div>
+   <!-- /ko -->
+</div>
