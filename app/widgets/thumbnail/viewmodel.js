@@ -14,17 +14,17 @@ define(function(require){
         this.data.thumbs = [
             {
                 title: 'The Kahani',
-                className: 'fa fa-star fa-5x',
+                className: 'fa fa-star fa-5x red',
                 url: '#kahani'
             },
             {
                 title: 'The Venue',
-                className: 'fa fa-map-marker fa-5x',
+                className: 'fa fa-map-marker fa-5x blue',
                 url: '#venue'
             },
             {
                 title: 'The Holmes',
-                className: 'fa fa-asterisk fa-5x',
+                className: 'fa fa-asterisk fa-5x green',
                 url: ''
             }
         ];
