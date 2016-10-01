@@ -7,7 +7,8 @@ requirejs.config({
         'durandal': '../lib/durandal/js',
         'plugins': '../lib/durandal/js/plugins',
         'transitions': '../lib/durandal/js/transitions',
-        'moment': '../lib/moment/moment.min'
+        'moment': '../lib/moment/moment.min',
+        'util': 'util/util'
         //'gmaps': 'https://maps.googleapis.com/maps/api/js?callback=myMap'
     }
 });

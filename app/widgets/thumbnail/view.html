@@ -4,18 +4,31 @@
         border-radius: 2px;
         height: 150px;
         text-align: center;
-        cursor: pointer;
         padding: 10px;
-        border: 1px solid #333;
     }
+    .thumb .icons {
+        margin-bottom: 20px;
+    }
+    .thumb .icons i {
+        cursor: pointer;
+        color: yellow;
+    }
+    .thumb .icons i:hover {
+        color: red;
+    }
+    .thumb .textual {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 1.5em;
+    }
+    
 </style>
 
 <div class="row">
     <!-- ko foreach: data.thumbs -->
     <div class="col" data-bind="css: $parents[0].data.gridClass">
-        <div class="thumb" data-bind="attr: { href: url }">
-            <span data-bind="text: title"></span>
-            <span></span>
+        <div class="thumb">
+            <div class="icons"><span data-bind="click: $parents[0].goto"><i data-bind="css: className"></i></span></div>
+            <div class="textual"><span data-bind="text: title"></span></div>
         </div>
     </div>
    <!-- /ko -->

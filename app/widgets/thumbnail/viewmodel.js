@@ -1,5 +1,6 @@
 define(function(require){
     'use strict';
+    var Util = require('util');
     
     var ThumbNailsWidget = function ThumbNailsWidget(settings) {
         this.settings = settings;
@@ -12,18 +13,23 @@ define(function(require){
     ThumbNailsWidget.prototype.setupData = function setupData() {
         this.data.thumbs = [
             {
-                title: 'About Us',
-                url: '#about'
+                title: 'The Kahani',
+                className: 'fa fa-star fa-5x',
+                url: '#kahani'
             },
             {
-                title: 'Venue',
+                title: 'The Venue',
+                className: 'fa fa-map-marker fa-5x',
                 url: '#venue'
             },
             {
-                title: 'Home',
+                title: 'The Holmes',
+                className: 'fa fa-asterisk fa-5x',
                 url: ''
             }
         ];
+        
+        this.goto = this.goto.bind(this);
     };
     
     
@@ -38,8 +44,10 @@ define(function(require){
         //this.data.colClassXs = 'col-xs-' + columnsXs;
         
         this.data.gridClass = this.data.colClassMd + ' ' + this.data.colClassXs;
-        
-        
+    };
+    
+    ThumbNailsWidget.prototype.goto = function goto(page) {
+        Util.goto(page.url);
     };
 
     return ThumbNailsWidget;
