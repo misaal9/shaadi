@@ -9,6 +9,9 @@
         background: transparent;
         border: transparent;
     }
+    #venue button {
+        margin-bottom: 10px;
+    }
     #venue h3 {
         font-family: 'Gloria Hallelujah', cursive;
     }
@@ -21,8 +24,10 @@
     #venue .center {
         text-align: center;
     }
-    #venue .bottom-border {
+    #venue .border-spacer {
         border-bottom: 4px dashed yellow;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     #venue i.red {
         color: red;
@@ -33,7 +38,7 @@
 </style>
 <div id="venue">
     <div class="row">
-        <div class="col col-xs-12 col-lg-8 col-lg-push-2 center bottom-border">
+        <div class="col col-xs-12 col-lg-8 col-lg-push-2 center border-spacer">
             <div class="panel">
                 <div class="panel-heading">
                     <h3><i class="red fa fa-heart"></i>&nbsp;&nbsp;Wedding Ceremony</h3>
@@ -48,7 +53,7 @@
                     <div><span>Dress code: Indian Traditional</span></div>
                     <div class="button">
                         <div><button id="pun" class="btn btn-lg btn-default btn-success" data-bind="click: showMap">Show On Map</button></div>
-                        <div><small class="text-muted"><i class="fa fa-location-arrow blue"></i>&nbsp;<span>Map will open in new window</span></small></div>
+                        <div><small class="text-muted"><i class="fa fa-location-arrow blue"></i>&nbsp;<span>Map opens in new window</span></small></div>
                     </div>
                 </div>
             </div>
@@ -71,7 +76,7 @@
                     <div><span>Dress code: Indian Traditional/ Western Formals</span></div>
                     <div class="button">
                         <div><button id="mum" class="btn btn-lg btn-default btn-success" data-bind="click: showMap">Show On Map</button></div>
-                        <div><small class="text-muted"><i class="fa fa-location-arrow blue"></i>&nbsp;<span>Map will open in new window</span></small
+                        <div><small class="text-muted"><i class="fa fa-location-arrow blue"></i>&nbsp;<span>Map opens in new window</span></small
                     </div>
                 </div>
             </div>

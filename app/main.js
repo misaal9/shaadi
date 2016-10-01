@@ -18,7 +18,7 @@ define(function (require) {
     
     system.debug(true);
     
-    app.title = 'The Shaadi';
+    app.title = 'Mads & Misaal';
     
     app.configurePlugins({
         router: true,
