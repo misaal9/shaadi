@@ -18,7 +18,7 @@ define(function (require) {
     
     system.debug(true);
     
-    app.title = 'The Shaadi';
+    app.title = 'Still Working';
     
     app.configurePlugins({
         router: true,

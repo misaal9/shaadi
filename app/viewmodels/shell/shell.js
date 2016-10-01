@@ -6,10 +6,7 @@ define(function(require){
     shell.router = router;
     shell.activate = function activate(){
         router.map([
-            { route: '', moduleId: '../viewmodels/home/home', title: 'Madhura & Rohit' },
-            { route: 'kahani', moduleId: '../viewmodels/kahani/kahani', title: 'The Kahani' },
-            { route: 'venue', moduleId: '../viewmodels/venue/venue', title: 'The Venue' },
-            { route: 'contact', moduleId: '../viewmodels/contact/contact', title: 'Contact Us' }
+            { route: '', moduleId: '../viewmodels/wip/wip', title: 'Woah' }
         ]).buildNavigationModel()
         
         return router.activate();
