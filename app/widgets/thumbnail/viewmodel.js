@@ -7,7 +7,6 @@ define(function(require){
         this.data = {};
         this.setupData();
         this.getThumbs();
-        console.info('settings', settings)
     };
     
     ThumbNailsWidget.prototype.setupData = function setupData() {
@@ -23,9 +22,9 @@ define(function(require){
                 url: '#venue'
             },
             {
-                title: 'The Holmes',
-                className: 'fa fa-asterisk fa-5x green',
-                url: ''
+                title: 'Get In Touch',
+                className: 'fa fa-pencil-square-o fa-5x green',
+                url: '#contact'
             }
         ];
         
