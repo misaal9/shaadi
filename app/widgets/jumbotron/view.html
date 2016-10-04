@@ -1,53 +1,55 @@
 <style>
-    .jumbotron {
-        /*font-family: 'Rock Salt', cursive;*/
-        font-family: 'Gloria Hallelujah', cursive;
+    #jumbotron {
+        /*font-family: 'Rock Salt', cursive;
+        font-family: 'Gloria Hallelujah', cursive;*/
         background: yellow;
         margin-top: 5%;
         height: 50%;
         width: 100%;
+        color: yellow;
         border-radius: 1px !important;
     }
-    .jumbotron .container {
-        color: #333;
-    }
-    .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5 {
+    #jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5 {
         font-family: 'Rock Salt', cursive;
         letter-spacing: 5px;
         color: #333;
     }
-    .jumbotron h1 {
+    #jumbotron h1 {
         margin-top: 0;
     }
-    .jumbotron .mainBox {
+    #jumbotron .mainBox {
         text-align: center;
     }
     /*alternate theme*/
-    .jumbotron {
+    #jumbotron {
         background: transparent;
     }
-    .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5 {
+    #jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5 {
         font-family: 'Rock Salt', cursive;
-        color: yellow;
     }
-    .jumbotron h4 {
-        font-size: 2vw;
+    #jumbotron .subTitle {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 1em;
+    }
+    #jumbotron .mainTitle{
+        font-family: 'Rock Salt', cursive;
+        font-size: 2em;
     }
 </style>
- <div class="jumbotron">
+ <div id="jumbotron">
   <div class="container">
     <div class="mainBox">
         <div>
-            <span>Rohit and Madhura,</span>
+            <span class="subTitle">Rohit and Madhura,</span>
         </div>
         <div>
-            <span>sitting on a tree,</span>
+            <span class="subTitle">sitting on a tree,</span>
         </div>
         <div>
             <span><h5>&nbsp;</h5></span>
         </div>
-        <div class="smaller">
-            <span><h3>W - E - D - D - I N G !</h3></span>
+        <div class="mainTitle">
+            <span>W - E - D - D - I N G !</span>
         </div>
     </div>
   </div>

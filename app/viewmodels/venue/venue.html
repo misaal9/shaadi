@@ -1,7 +1,7 @@
 <style>
     #venue {
         font-family: 'Gloria Hallelujah', cursive;
-        font-size: 1.3em;
+        font-size: 1em;
         color: yellow;
         letter-spacing: 2px;
     }
@@ -35,18 +35,25 @@
     #venue i.blue {
         color: steelblue;
     }
+    #venue .heading {
+        font-size: 1.3em;
+        color: #fff;
+    }
+    #venue .body {
+        font-size: 1em;
+    }
 </style>
 <div id="venue">
     <div class="row">
         <div class="col col-xs-12 col-lg-8 col-lg-push-2 center border-spacer">
             <div class="panel">
                 <div class="panel-heading">
-                    <h3><i class="red fa fa-heart"></i>&nbsp;&nbsp;Wedding Ceremony</h3>
+                    <span class="heading"><i class="red fa fa-heart"></i>&nbsp;&nbsp;Wedding Ceremony</span>
                 </div>
                 <!--<div class="panel-body">
                     <div data-bind="gmaps: {name: 'now456'} "></div>
                 </div>-->
-                <div class="panel-body">
+                <div class="panel-body body">
                     <div><span>Date: Saturday, 26th November</span></div>
                     <div><span>Location: Sayaji Hotel, Wakad, Pune</span></div>
                     <div><span>Timing: 10AM Onwards</span></div>
@@ -64,12 +71,12 @@
         <div class="col col-xs-12 col-lg-8 col-lg-push-2 center">
             <div class="panel">
                 <div class="panel-heading">
-                    <h3><i class="red fa fa-heart"></i>&nbsp;&nbsp;Reception</h3>
+                    <span class="heading"><i class="red fa fa-heart"></i>&nbsp;&nbsp;Reception</span>
                 </div>
                 <!--<div class="panel-body">
                     <div data-bind="gmaps: { name: 'now123' } "></div>
                 </div>-->
-                <div class="panel-body">
+                <div class="panel-body body">
                     <div><span>Date: Sunday, 27th November</span></div>
                     <div><span>Location: US Club, South Mumbai</span></div>
                     <div><span>Timing: 6.30PM Onwards</span></div>
