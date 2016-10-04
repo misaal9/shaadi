@@ -16,8 +16,6 @@ define(function (require) {
     var system = require('durandal/system'), 
         app = require('durandal/app');
     
-    system.debug(true);
-    
     app.title = 'Mads & Misaal';
     
     app.configurePlugins({
