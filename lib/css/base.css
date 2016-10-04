@@ -1,0 +1,232 @@
+/* ********** INDEX ********** */
+html, body {
+    height: 100%;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+    cursor: default;
+    font-size: 20px;
+}
+.container {
+    padding-top: 15px;
+}
+.panel {
+    box-shadow: none;
+}
+@media screen and (max-width: 768px) {
+    html, body {
+        font-size: 16px;
+    }
+    #jumbotron .mainTitle {
+        font-size: 6vw !important;
+        letter-spacing: -3px;
+        white-space: nowrap;
+    }
+}
+
+/* ********** VIEWMODELS/CONTACT ********** */
+#contact {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: yellow;
+    letter-spacing: 2px;
+}
+#contact .panel, #contact .panel-heading {
+    background: transparent;
+    border: transparent;
+}
+#contact h3, #contact h4 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#contact .panel-heading {
+    text-align: center;
+}
+#contact i.red {
+    color: red;
+}
+#contact i.blue {
+    color: #3b5998 ;
+}
+#contact i.green {
+    color: greenyellow;
+}
+#contact .social > div {
+    margin-bottom: 15px;
+    text-align: center;
+}
+#contact .heading {
+    color: #fff;
+    font-size: 1.3em;
+}
+#contact .body {
+    font-size: 1em;
+}
+#contact .social .body {
+    color: #fff;
+}
+
+/* ********** VIEWMODELS/KAHANI ********** */
+#kahani {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: yellow;
+    letter-spacing: 2px;
+}
+#kahani .panel, #kahani .panel-heading {
+    background: transparent;
+    border: transparent;
+}
+#kahani h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#kahani .panel-heading {
+    text-align: center;
+}
+#kahani i.red {
+    color: red;
+}
+#kahani i.blue {
+    color: steelblue;
+}
+#kahani i.green {
+    color: greenyellow;
+}
+#kahani .body {
+    font-size: 1em;
+}
+#kahani .heading {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+/* ********** VIEWMODELS/VENUE ********** */
+#venue {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    color: yellow;
+    letter-spacing: 2px;
+}
+#venue .panel, #venue .panel-heading {
+    background: transparent;
+    border: transparent;
+}
+#venue button {
+    margin-bottom: 10px;
+}
+#venue h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#venue .panel-heading {
+    text-align: center;
+}
+#venue .button {
+    margin-top: 20px;
+}
+#venue .center {
+    text-align: center;
+}
+#venue .border-spacer {
+    border-bottom: 4px dashed yellow;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+#venue i.red {
+    color: red;
+}
+#venue i.blue {
+    color: steelblue;
+}
+#venue .heading {
+    font-size: 1.3em;
+    color: #fff;
+}
+#venue .body {
+    font-size: 1em;
+}
+
+/* ********** WIDGETS/FOOTER ********** */
+ #footer {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 35%;
+}
+#footer i.red {
+    color: orangered;
+}
+
+/* ********** WIDGETS/JUMBOTRON ********** */
+#jumbotron {
+    /*font-family: 'Rock Salt', cursive;
+    font-family: 'Gloria Hallelujah', cursive;*/
+    background: yellow;
+    margin-top: 5%;
+    height: 50%;
+    width: 100%;
+    color: yellow;
+    border-radius: 1px !important;
+}
+#jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5 {
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 5px;
+    color: #333;
+}
+#jumbotron h1 {
+    margin-top: 0;
+}
+#jumbotron .mainBox {
+    text-align: center;
+}
+/*alternate theme*/
+#jumbotron {
+    background: transparent;
+}
+#jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5 {
+    font-family: 'Rock Salt', cursive;
+}
+#jumbotron .subTitle {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.3em;
+}
+#jumbotron .mainTitle {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+}
+
+/* ********** WIDGETS/THUMBNAIL ********** */
+.thumb {
+    background: transparent;
+    border-radius: 2px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+.thumb .icons {
+    margin-bottom: 20px;
+}
+.thumb .icons i {
+    cursor: pointer;
+    color: yellow;
+    font-size: 3em;
+}
+.thumb .icons i:hover {
+    color: #fff;
+}
+.thumb .textual {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+}
+.thumb i.red {
+    color: coral
+}
+.thumb i.blue {
+    color: steelblue
+}
+.thumb i.green {
+    color: green
+}
+#thumb {
+    margin-top: 100px;
+}
