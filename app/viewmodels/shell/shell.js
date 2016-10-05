@@ -7,9 +7,9 @@ define(function(require){
     shell.activate = function activate(){
         router.map([
             { route: '', moduleId: '../viewmodels/home/home', title: 'Here We Go' },
-            { route: 'kahani', moduleId: '../viewmodels/kahani/kahani', title: 'The Kahani' },
-            { route: 'venue', moduleId: '../viewmodels/venue/venue', title: 'The Venue' },
-            { route: 'contact', moduleId: '../viewmodels/contact/contact', title: 'Contact Us' }
+            { route: 'kahani', moduleId: '../viewmodels/kahani/kahani', title: 'Their Kahani' },
+            { route: 'venue', moduleId: '../viewmodels/venue/venue', title: 'Venue Details' },
+            { route: 'contact', moduleId: '../viewmodels/contact/contact', title: 'Get In Touch' }
         ]).buildNavigationModel()
         
         return router.activate();

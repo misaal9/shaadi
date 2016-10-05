@@ -16,6 +16,9 @@ html, body {
 .panel {
     box-shadow: none;
 }
+span.label {
+    font-size: 1em;
+}
 @media screen and (max-width: 768px) {
     html, body {
         font-size: 14px;
@@ -98,6 +101,9 @@ html, body {
 #kahani .heading {
     color: #fff;
     font-size: 1.3em;
+}
+#kahani span.codeComment {
+    color: gray;
 }
 
 /* ********** VIEWMODELS/VENUE ********** */
