@@ -208,7 +208,15 @@ span.label {
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
 }
-
+#jumbotron img.image.border {
+    border: 3px dashed yellow;
+    padding: 2em;
+    border-radius: 10px;
+}
+#jumbotron img.image {
+    width: 50%;
+    margin-bottom: 40px;
+}
 /* ********** WIDGETS/THUMBNAIL ********** */
 .thumb {
     background: transparent;
