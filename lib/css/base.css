@@ -18,6 +18,9 @@ html, body {
     align-content: center;
     height: 100%;
 }
+#applicationHost {
+    margin: auto;
+}
 .panel {
     box-shadow: none;
 }
