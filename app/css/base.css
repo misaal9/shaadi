@@ -32,8 +32,8 @@ span.label {
         font-size: 14px;
     }
     #jumbotron .mainTitle {
-        font-size: 6vw !important;
-        letter-spacing: -3px;
+        font-size: 5vw !important;
+        letter-spacing: 0px;
         white-space: nowrap;
     }
 }
@@ -206,7 +206,7 @@ span.label {
 }
 #jumbotron .mainTitle {
     font-family: 'Rock Salt', cursive;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 #jumbotron img.image.border {
     border: 3px dashed yellow;
@@ -250,5 +250,5 @@ span.label {
     color: green
 }
 #thumb {
-    margin-top: 100px;
+    margin-top: 60px;
 }
