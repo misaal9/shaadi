@@ -12,13 +12,24 @@ html, body {
 }
 .container {
     padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+#applicationHost {
+    margin: auto;
 }
 .panel {
     box-shadow: none;
 }
+span.label {
+    font-size: 1em;
+}
 @media screen and (max-width: 768px) {
     html, body {
-        font-size: 16px;
+        font-size: 14px;
     }
     #jumbotron .mainTitle {
         font-size: 6vw !important;
@@ -98,6 +109,9 @@ html, body {
 #kahani .heading {
     color: #fff;
     font-size: 1.3em;
+}
+#kahani span.codeComment {
+    color: gray;
 }
 
 /* ********** VIEWMODELS/VENUE ********** */
