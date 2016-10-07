@@ -36,6 +36,9 @@ span.label {
         letter-spacing: 0px;
         white-space: nowrap;
     }
+    #jumbotron img.image {
+        width: 50% !important;
+    }
 }
 
 /* ********** VIEWMODELS/CONTACT ********** */
@@ -214,7 +217,7 @@ span.label {
     border-radius: 10px;
 }
 #jumbotron img.image {
-    width: 50%;
+    width: 30%;
     margin-bottom: 40px;
 }
 /* ********** WIDGETS/THUMBNAIL ********** */
