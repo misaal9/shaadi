@@ -216,9 +216,12 @@ span.label {
     padding: 2em;
     border-radius: 10px;
 }
-#jumbotron img.image {
-    width: 30%;
+#jumbotron div.image {
     margin-bottom: 40px;
+}
+#jumbotron img.image {
+    width: 40%;
+    border-radius: 10px;
 }
 /* ********** WIDGETS/THUMBNAIL ********** */
 .thumb {

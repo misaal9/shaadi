@@ -7,7 +7,6 @@ define(function(require){
         this.settings = settings;
         var fullImgPath;
         fullImgPath = imgSrc + this.getRandomImage() + '.jpg';
-        console.info('fullImgPath', fullImgPath);
         this.randomImgUrl = ko.observable(fullImgPath);
     };
     
