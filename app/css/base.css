@@ -196,6 +196,9 @@ span.label {
 #jumbotron .mainBox {
     text-align: center;
 }
+#jumbotron .mainBox > div {
+    margin-bottom: 10px;
+}
 /*alternate theme*/
 #jumbotron {
     background: transparent;
@@ -210,6 +213,8 @@ span.label {
 #jumbotron .mainTitle {
     font-family: 'Rock Salt', cursive;
     font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 #jumbotron img.image.border {
     border: 3px dashed yellow;
@@ -256,5 +261,5 @@ span.label {
     color: green
 }
 #thumb {
-    margin-top: 60px;
+    margin-top: 40px;
 }
