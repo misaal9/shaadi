@@ -1,7 +1,7 @@
 define(function(require){
     'use strict';
     var ko = require('knockout');
-    var imgSrc = './app/img/pic_';
+    var imgSrc = './app/img/p';
 
     var JumbotronWidget = function JumbotronWidget(settings) {
         this.settings = settings;
@@ -12,7 +12,9 @@ define(function(require){
     };
     
     JumbotronWidget.prototype.getRandomImage = function getRandomImage() {
-        return 1;
+        var totalNumOfPics = 6;
+        var randomPicNo = Math.ceil(Math.random() * totalNumOfPics)
+        return randomPicNo;
     };
 
     return JumbotronWidget;
