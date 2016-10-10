@@ -22,7 +22,7 @@ define(function (require) {
         router: true,
         dialog: true,
         widget: {
-            kinds: ['jumbotron', 'thumbnail', 'footer']
+            kinds: ['jumbotron', 'thumbnail', 'footer', 'nightmode']
         }
     });
     

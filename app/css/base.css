@@ -11,6 +11,7 @@ html, body {
     font-size: 20px;
 }
 .container {
+    width: 100%;
     padding-top: 15px;
     display: flex;
     align-items: center;
@@ -108,7 +109,7 @@ span.label {
     color: steelblue;
 }
 #kahani i.green {
-    color: greenyellow;
+    color: green;
 }
 #kahani .body {
     font-size: 1em;
@@ -266,4 +267,38 @@ span.label {
 }
 #thumb {
     margin-top: 40px;
+}
+/* ********** BRIGHT MODE ********** */
+body.bright {
+    background: lightcyan; /*ccc, fff*/
+}
+body.bright .subTitle, body.bright .mainTitle {
+    color: darkslategrey;
+}
+body.bright #kahani .heading {
+    color: darkcyan;
+}
+body.bright #nightmode i {
+    color: #000;
+}
+body.bright #kahani {
+    color: darkslategrey;
+}
+body.bright .thumb .icons i:hover {
+    color: darkred;
+}
+body.bright #venue .heading, body.bright #venue .label {
+    color: darkred;
+}
+body.bright #venue {
+    color: darkcyan;
+}
+body.bright #venue .border-spacer {
+    border-bottom-color: darkcyan;
+}
+body.bright #contact {
+    color: darkcyan;
+}
+body.bright #contact .heading, body.bright #contact .social .body {
+    color: darkred;
 }
