@@ -90,6 +90,57 @@ span.label {
 #contact .social .body {
     color: #fff;
 }
+/* ********** VIEWMODELS/WHOOPS ********** */
+#whoops {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: yellow;
+    letter-spacing: 2px;
+}
+#whoops .panel, #whoops .panel-heading {
+    background: transparent;
+    border: transparent;
+}
+#whoops h3, #whoops h4 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#whoops .panel-heading {
+    text-align: center;
+}
+#whoops i.red {
+    color: red;
+}
+#whoops i.blue {
+    color: #3b5998 ;
+}
+#whoops i.green {
+    color: greenyellow;
+}
+#whoops .social > div {
+    margin-bottom: 15px;
+    text-align: center;
+}
+#whoops .heading {
+    color: #fff;
+    font-size: 1.3em;
+}
+#whoops .body {
+    font-size: 1em;
+}
+#whoops .social .body {
+    color: #fff;
+}
+#whoops .thumb i.red {
+    color: coral
+}
+#whoops .thumb i.blue {
+    color: steelblue
+}
+#whoops .thumb i.green {
+    color: green
+}
+#whoops .textual {
+    color: #888888;
+}
 
 /* ********** VIEWMODELS/KAHANI ********** */
 #kahani {
@@ -126,7 +177,6 @@ span.label {
 #kahani span.codeComment {
     color: gray;
 }
-
 /* ********** VIEWMODELS/VENUE ********** */
 #venue {
     font-family: 'Gloria Hallelujah', cursive;
@@ -305,5 +355,11 @@ body.bright #contact {
     color: darkcyan;
 }
 body.bright #contact .heading, body.bright #contact .social .body {
+    color: darkred;
+}
+body.bright #whoops {
+    color: darkcyan;
+}
+body.bright #whoops .heading, body.bright #whoops .social .body {
     color: darkred;
 }

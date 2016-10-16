@@ -10,7 +10,9 @@ define(function(require){
             { route: 'kahani', moduleId: '../viewmodels/kahani/kahani', title: 'Their Kahani' },
             { route: 'venue', moduleId: '../viewmodels/venue/venue', title: 'Venue Details' },
             { route: 'contact', moduleId: '../viewmodels/contact/contact', title: 'Get In Touch' }
-        ]).buildNavigationModel()
+        ])
+            .mapUnknownRoutes('viewmodels/whoops/whoops', 'whoops')
+            .buildNavigationModel()
         
         return router.activate();
     };
