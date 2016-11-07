@@ -7,7 +7,7 @@ define(function(require) {
     var BODY = $('body');
     
     var HomeButtonWidget = function HomeButtonWidget() {
-        this.currentModeClass = ko.observable('fa fa-home fa-3x');
+        this.currentModeClass = ko.observable('fa fa-home fa-2x');
         this.showHomeButton = ko.observable(false);
         this.isHomePage = ko.observable(true);
         this.bindHandlers();

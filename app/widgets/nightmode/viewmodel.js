@@ -12,8 +12,8 @@ define(function(require) {
     var BODY = $('body');
     
     var iconClasses = {
-        night: 'fa fa-moon-o fa-3x',
-        bright: 'fa fa-sun-o fa-3x'
+        night: 'fa fa-moon-o fa-2x',
+        bright: 'fa fa-sun-o fa-2x'
     };
     
     var NightModeWidget = function NightModeWidget() {
