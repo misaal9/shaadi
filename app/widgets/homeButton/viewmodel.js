@@ -2,7 +2,7 @@ define(function(require) {
     'use strict';
     var ko = require('knockout'),
         $ = require('jquery'),
-        Router = require('plugins/Router');
+        Router = require('plugins/router');
 
     var BODY = $('body');
     
