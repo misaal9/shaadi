@@ -17,9 +17,9 @@ define(function(require) {
     };
     
     var NightModeWidget = function NightModeWidget() {
-        BODY.addClass(availableModes.night);
-        this.isNightMode = ko.observable(true);
-        this.currentModeClass = ko.observable(iconClasses.bright);
+        BODY.addClass(availableModes.bright);
+        this.isNightMode = ko.observable(false);
+        this.currentModeClass = ko.observable(iconClasses.night);
     };
     
     NightModeWidget.prototype.changeModeHandler = function changeModeHandler() {

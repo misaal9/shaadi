@@ -4,6 +4,7 @@ define(function(require){
     var shell = {};
    
     shell.router = router;
+    
     shell.activate = function activate(){
         router.map([
             { route: '', moduleId: '../viewmodels/home/home', title: 'Here We Go' },

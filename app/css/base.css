@@ -50,6 +50,12 @@ span.label {
         margin-left: 15%;
         margin-right: 15%;
     }
+    #nightmode {
+        margin: 25px !important;
+    }
+    #homeButton {
+        margin: 25px !important;
+    }
 }
 /* ********** VIEWMODELS/CONTACT ********** */
 #contact {
@@ -325,7 +331,7 @@ span.label {
 }
 /* ********** BRIGHT MODE ********** */
 body.bright {
-    background: lightcyan; /*ccc, fff*/
+    background: rgba(224, 255, 255, 0.4); /*lightcyan;*/ /*ccc, fff*/
 }
 body.bright .subTitle, body.bright .mainTitle {
     color: darkslategrey;
@@ -334,7 +340,10 @@ body.bright #kahani .heading {
     color: darkcyan;
 }
 body.bright #nightmode i {
-    color: #000;
+    color: darkcyan;
+}
+body.bright #homeButton i {
+    color: darkcyan;
 }
 body.bright #kahani {
     color: darkslategrey;
@@ -362,4 +371,20 @@ body.bright #whoops {
 }
 body.bright #whoops .heading, body.bright #whoops .social .body {
     color: darkred;
+}
+#nightmode {
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    margin: 15px;
+    color: gray;
+}
+#homeButton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    margin: 15px;
+    color: gray;
 }
