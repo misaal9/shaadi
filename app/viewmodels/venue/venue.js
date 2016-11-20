@@ -2,6 +2,8 @@ define(function(require){
     'use strict';
     var Router = require('plugins/router');
     var Venue = {};
+    var Util = require('util');
+
     
     /*var usClub = new google.maps.LatLng(18.896647, 72.809478);
     var sayaji = new google.maps.LatLng(18.599503, 73.755148);*/
@@ -17,6 +19,12 @@ define(function(require){
             lat: '18.599503',
             long: '73.755148'
         },
+    };
+    
+    Venue.canActivate = function canActivate() {
+        var router = Router.activeInstruction().fragment;
+        Util.showButton(router);
+        return true;
     };
     
     Venue.showMap = function showMap(d,e) {

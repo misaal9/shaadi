@@ -382,7 +382,7 @@ body.bright #whoops .heading, body.bright #whoops .social .body {
 }
 #homeButton {
     position: fixed;
-    bottom: 0;
+    top: 0;
     right: 0;
     cursor: pointer;
     margin: 15px;

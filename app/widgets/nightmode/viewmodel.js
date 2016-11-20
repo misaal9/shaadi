@@ -1,7 +1,8 @@
 define(function(require) {
     'use strict';
     var ko = require('knockout'),
-        $ = require('jquery');
+        $ = require('jquery'),
+        Util = require('util');
     
     
     var availableModes = {
