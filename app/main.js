@@ -18,7 +18,7 @@ define(function (require) {
     
     system.debug(false);
     
-    app.title = 'Madhura & Rohit';
+    app.title = 'Rohit & Madhura';
     
     app.configurePlugins({
         router: true,
